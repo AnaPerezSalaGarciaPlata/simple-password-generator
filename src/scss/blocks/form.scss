@@ -1,0 +1,46 @@
+.password-generator {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+width: 90%;
+max-width: 450px;
+padding: 2.25rem;
+margin-left: auto;
+margin-right: auto;
+height: 500px;
+}
+
+.password-preview:focus {
+outline: none;
+}
+
+
+.input-bckg {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.label-text {
+    letter-spacing: 4px;
+}
+
+.length-container {
+    margin-bottom: 0.8rem;
+}
+
+.range-input{
+    height: 3px;
+    width: 85%;
+    accent-color: var(--accent-color);
+}
+
+.password-range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
